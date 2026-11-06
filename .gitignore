@@ -1,0 +1,64 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# Python & Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Node.js & Frontend
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+.npm/
+.eslintcache
+.vite/
+
+# Documents & Data (Preserve privacy - no local or evaluation PDFs committed)
+*.pdf
+*.PDF
+evaluation/corpus/*.pdf
+evaluation/corpus/*.PDF
+
+# Temporary & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.log
+scratch/
+
